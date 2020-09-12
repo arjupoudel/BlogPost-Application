@@ -35,9 +35,9 @@ body {
     border-radius: 3px;
     margin-bottom: 20px;
   }
-  
+ 
   .article-title {
-    color: #444444;
+    color: black;
     font-size: 25px;
   }
   
@@ -49,6 +49,7 @@ body {
   
   .article-content {
     white-space: pre-line;
+    color: black;
   }
   
   .article-img {
