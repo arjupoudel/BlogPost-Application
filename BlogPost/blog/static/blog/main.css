@@ -55,10 +55,16 @@ body {
     height: 65px;
     width: 65px;
     margin-right: 16px;
-    border: 1px solid #d1d9e3 ;
-
+    border: 1px solid black ;
+    box-shadow: 2px 1px 1px  #f0ad4e;
   }
-  
+
+  .account-img{
+    border: 1px solid black ;
+    box-shadow: 2px 2px 1px  #f0ad4e;
+  }
+
+
   .article-metadata {
     padding-bottom: 1px;
     margin-bottom: 4px;
