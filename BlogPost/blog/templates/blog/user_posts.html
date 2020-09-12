@@ -1,5 +1,13 @@
 {% extends "blog/base.html" %}
+{% load static %}
     {% block content %}
+
+    <!-- <div>
+        <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}">
+        <h1 style="font-size: 25px;">{{ view.kwargs.username }}</h1>
+        <h1 style="font-size: 15px; font-family: Arial, Helvetica, sans-serif;">Emon Poudel is a good human and she does everything perfectly.</h1>
+    </div> -->
+    
     <h1 class="mb-3">Posts by {{ view.kwargs.username }} ({{ page_obj.paginator.count }} posts)</h1>
     {% for post in posts %}
         <article class="media content-section">
